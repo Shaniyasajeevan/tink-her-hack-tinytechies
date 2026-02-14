@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6fb;
+  color: #222;
+}
+
+/* HOME PAGE */
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #2c2c2c;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.hero-image img {
+  width: 110px;
+}
+
+.btn {
+  padding: 12px 26px;
+  background: #4a6cf7;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+  background: #3a57d6;
+}
+
+/* STUDENT PANEL */
+
+.panel {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.search-box input {
+  padding: 12px;
+  width: 230px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-box button {
+  padding: 12px 18px;
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #3a57d6;
+}
+
+.result-box {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.free { color: green; }
+.occupied { color: red; }
+
+.details {
+  font-size: 16px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* CLASSROOM DIRECTORY */
+
+.directory {
+  margin-top: 40px;
+  width: 90%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.floor-title {
+  margin-top: 25px;
+  font-weight: bold;
+  border-left: 4px solid #4a6cf7;
+  padding-left: 8px;
+}
+
+.room-card {
+  background: white;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
